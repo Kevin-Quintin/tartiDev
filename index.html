@@ -1,31 +1,123 @@
 <!doctype html>
 <html lang="fr">
-  <head>
+
+<head>
     <!-- Required meta tags -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
     <!-- Bootstrap CSS -->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
 
-    <title>Hello, world!</title>
-  </head>
-  <body>
-    <h1>Recette de la tartiflette</h1>
+    <title>TartiDev</title>
+</head>
 
-    <h2>Ingrédient</h2>
-    <div>
-        <p>Liste des ingrédients</p>
-        <p>
-          <span><img src="./assets/img/pommeDeTerre.jpg"> <img src="./assets/img/huile.jpg"> </span>
-        </p>
-    </div>
+<body>
+    <header>
+        <h1>Recette de la tartiflette</h1>
+    </header>
 
-    <h2>Préparation</h2>
-    <div>
-        <p>Liste des tâches</p>
-    </div>
+    <section id="ingredient">
+
+        <h2>Ingrédient</h2>
+        <div>
+            <p>Liste des ingrédients</p>
+            <p>
+              <div class="row row-cols-1 row-cols-md-4 g-4 text-center">
+                <div class="col">
+                  <div class="card">
+                    <img src="./assets/img/pommeDeTerre.jpg"> 
+                    <div class="card-body">
+                      <h5 class="card-title">1 Kg de pomme de terre</h5>
+                    </div>
+                  </div>
+                </div>
+                <div class="col">
+                  <div class="card">
+                    <img src="./assets/img/huile.jpg"> 
+                    <div class="card-body">
+                      <h5 class="card-title">2 c à s d'huile </h5>
+                    </div>
+                  </div>
+                </div>
+                <div class="col">
+                  <div class="card">
+                    <img src="./assets/img/ail.jpg"> 
+                    <div class="card-body">
+                      <h5 class="card-title">1 gousse d'ail</h5>
+                    </div>
+                  </div>
+                </div>
+                <div class="col">
+                  <div class="card">
+                    <img src="./assets/img/sel.jpg"> 
+                    <div class="card-body">
+                      <h5 class="card-title">sel</h5>
+                      
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <div class="row row-cols-1 row-cols-md-4 g-4 text-center">
+                <div class="col">
+                  <div class="card">
+                    <img src="./assets/img/poivre.jpg"> 
+                    <div class="card-body">
+                      <h5 class="card-title">poivre</h5>
+                      
+                    </div>
+                  </div>
+                </div>
+                <div class="col">
+                  <div class="card">
+                    <img src="./assets/img/lardon.jpg"> 
+                    <div class="card-body">
+                      <h5 class="card-title">200g de lardons fumées</h5>
+                    
+                    </div>
+                  </div>
+                </div>
+                <div class="col">
+                  <div class="card">
+                    <img src="./assets/img/oignon.jpg">
+                    <div class="card-body">
+                      <h5 class="card-title">200 g d'oignons émincés</h5>
+                    
+                    </div>
+                  </div>
+                </div>
+                <div class="col">
+                  <div class="card">
+                    <img src="./assets/img/reblochon.jpg"> 
+                    <div class="card-body">
+                      <h5 class="card-title">1 reblochon bien fait (lorsqu'on appuie sur le côté du reblochon, le doigt doit s'enfoncer un peu)</h5>
+                      
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </p>
+        </div>
+    </section>
+
+    <section id="preparation">
+        <h2>Préparation</h2>
+        <div>
+            <p>Liste des tâches</p>
+        </div>
+    </section>
+
+    <footer>
+        <h2>Conclusion</h2>
+        <p>En conclusion la tartiflette c'est bon mais ça vaut pas une bonne raclette.</p>
+    </footer>
+    
     <!-- Bootstrap Bundle with Popper -->
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
-  </body>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous"></script>
+</body>
+
 </html>
