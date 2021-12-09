@@ -1,0 +1,49 @@
+mefis@DESKTOP-4BH0Q2A MINGW64 ~/Documents/tartiDev (main)
+$ git log
+commit 19336d242d12b232400e5cc40d5fd0f2dd789403 (HEAD -> main, commit 19336d242d12b232400e5cc40d5fd0f2dd789403 (HEAD -> main, origin/main)
+commit 19336d242d12b232400e5cc40d5fd0f2dd789403 (HEAD ->commit 19336d242d12b232400e5cc40d5fd0f2dd789403 (HEAD -> main, origin/main)
+Merge: 4d6f483 edccd6c
+Author: Hamida SIDI SAID OMAR <hamida.sidisaidomar@gmail.com>
+Date:   Thu Dec 9 09:06:47 2021 +0100
+
+    Merge branch 'main' into main
+
+commit edccd6cb34bdae4b79ec5aee45dac1e66996432c
+Merge: c75d8c1 23dbdc6
+Author: Hamida SIDI SAID OMAR <hamida.sidisaidomar@gmail.com>
+Date:   Thu Dec 9 09:02:39 2021 +0100
+
+    Ajout des images
+
+commit 4d6f483dcb8675d9a68d4334bf30ff512f179dae
+Author: Kevin-dev-afpa <kequintin@laposte.net>
+:...skipping...
+commit 19336d242d12b232400e5cc40d5fd0f2dd789403 (HEAD -> main, origin/main)
+Merge: 4d6f483 edccd6c
+Author: Hamida SIDI SAID OMAR <hamida.sidisaidomar@gmail.com>
+Date:   Thu Dec 9 09:06:47 2021 +0100
+
+    Merge branch 'main' into main
+
+commit edccd6cb34bdae4b79ec5aee45dac1e66996432c
+Merge: c75d8c1 23dbdc6
+Author: Hamida SIDI SAID OMAR <hamida.sidisaidomar@gmail.com>
+Date:   Thu Dec 9 09:02:39 2021 +0100
+
+    Ajout des images
+
+commit 4d6f483dcb8675d9a68d4334bf30ff512f179dae
+Author: Kevin-dev-afpa <kequintin@laposte.net>
+Date:   Wed Dec 8 16:55:53 2021 +0100
+
+    Mise en page correct avec des classes container
+
+commit 4922bdace06716a1f827e5536313d0f610f067e0
+Merge: 8d22a6d 4f7627d
+Author: Kevin Quintin <61229701+Kevin-Quintin@users.noreply.github.com>
+Date:   Wed Dec 8 16:52:10 2021 +0100
+
+    Merge pull request #4 from julienpichon-afpa/main
+
+    ajout intro
+:

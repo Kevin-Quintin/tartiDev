@@ -1,0 +1,36 @@
+421  echo "# tartiDev" >> README.md
+  422  git init
+  423  git add README.md
+  424  git commit -m "first commit"
+  425  git branch -M main
+  426  git remote add origin https://github.com/Kevin-Quintin/tartiDev.git
+  427  git push -u origin main
+  428  git push -u origin master
+  429  echo "# tartiDev" >> README.md
+  430  git init
+  431  git add README.md
+  432  git commit -m "first commit"
+  433  git branch -M main
+  434  git remote add origin https://github.com/Kevin-Quintin/tartiDev.git
+  435  git push -u origin main
+  436  git add .
+  437  git commit -m "Changement du fichier readme"
+  438  git push
+  439  git pull
+  440  git add .
+  441  git commit -m "Mise en place de la structure du document index.html"
+  442  git push
+  443  git pull
+  444  git pull
+  445  git add .
+  446  git commit -m "Seconde partie des photos"
+  447  git push
+  448  git add .
+  449  git commit -m "Mise en page avec de nouvelle balise section pour différencier chaque partie
+  450  git push
+  451  git pull
+  452  git pull
+  453  git add .
+  454  git commit -m "Mise en page correct avec des classes container"
+  455  git push
+  456  git pull

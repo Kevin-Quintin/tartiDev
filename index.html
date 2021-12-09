@@ -2,186 +2,181 @@
 <html lang="fr">
 
 <head>
-    <!-- Required meta tags -->
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
 
-    <!-- Bootstrap CSS -->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
-        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+  <!-- Bootstrap CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
 
-    <title>TartiDev</title>
+  <title>TartiDev</title>
 </head>
 
 <body>
-    <header>
-        <h1 class="text-center">Recette de la tartiflette</h1>
-    </header>
+  <header>
+    <h1 class="text-center">Recette de la tartiflette</h1>
+  </header>
 
-    <section id="intro">
-        <div class="container">
-            <h2>Introduction</h2>
+  <section id="intro">
+    <div class="container">
+      <h2>Introduction</h2>
 
-            <p>Introduction
+      <p>Introduction
 
-                Un plat gourmand pour se réchauffer pendant l'hiver, entre le reblochon coulant, les pommes de terres
-                moelleuses, et les lardons fumés savoureux, c'est bien sûr la tartiflette !</p>
-        </div>
-    </section>
+        Un plat gourmand pour se réchauffer pendant l'hiver, entre le reblochon coulant, les pommes de terres
+        moelleuses, et les lardons fumés savoureux, c'est bien sûr la tartiflette !</p>
+    </div>
+  </section>
 
-    <section id="ingredient">
-        <div class="container">
-            <h2>Ingrédient</h2>
-            <div>
-                <p>Liste des ingrédients</p>
-                <p></p>
-            </div>
+  <section id="ingredient">
+    <div class="container">
 
-        <h2>Ingrédient</h2>
-        <div>
-            <p>Liste des ingrédients</p>
-            <p>
-              <div class="row row-cols-1 row-cols-md-4 g-4 text-center">
-                <div class="col">
-                  <div class="card">
-                    <img src="./assets/img/pommeDeTerre.jpg"> 
-                    <div class="card-body">
-                      <h5 class="card-title">1 Kg de pomme de terre</h5>
-                    </div>
-                  </div>
-                </div>
-                <div class="col">
-                  <div class="card">
-                    <img src="./assets/img/huile.jpg"> 
-                    <div class="card-body">
-                      <h5 class="card-title">2 c à s d'huile </h5>
-                    </div>
-                  </div>
-                </div>
-                <div class="col">
-                  <div class="card">
-                    <img src="./assets/img/ail.jpg"> 
-                    <div class="card-body">
-                      <h5 class="card-title">1 gousse d'ail</h5>
-                    </div>
-                  </div>
-                </div>
-                <div class="col">
-                  <div class="card">
-                    <img src="./assets/img/sel.jpg"> 
-                    <div class="card-body">
-                      <h5 class="card-title">sel</h5>
-                      
-                    </div>
-                  </div>
-                </div>
+      <h2>Ingrédient</h2>
+      <div>
+        <p>Liste des ingrédients</p>
+        <div class="row row-cols-1 row-cols-md-4 g-4 text-center">
+          <div class="col">
+            <div class="card" style="width: 18rem;">
+              <img src="./assets/img/pommeDeTerre.jpg" alt="pdt">
+              <div class="card-body">
+                <h5 class="card-title">1 Kg de pomme de terre</h5>
               </div>
-
-              <div class="row row-cols-1 row-cols-md-4 g-4 text-center">
-                <div class="col">
-                  <div class="card">
-                    <img src="./assets/img/poivre.jpg"> 
-                    <div class="card-body">
-                      <h5 class="card-title">poivre</h5>
-                      
-                    </div>
-                  </div>
-                </div>
-                <div class="col">
-                  <div class="card">
-                    <img src="./assets/img/lardon.jpg"> 
-                    <div class="card-body">
-                      <h5 class="card-title">200g de lardons fumées</h5>
-                    
-                    </div>
-                  </div>
-                </div>
-                <div class="col">
-                  <div class="card">
-                    <img src="./assets/img/oignon.jpg">
-                    <div class="card-body">
-                      <h5 class="card-title">200 g d'oignons émincés</h5>
-                    
-                    </div>
-                  </div>
-                </div>
-                <div class="col">
-                  <div class="card">
-                    <img src="./assets/img/reblochon.jpg"> 
-                    <div class="card-body">
-                      <h5 class="card-title">1 reblochon bien fait (lorsqu'on appuie sur le côté du reblochon, le doigt doit s'enfoncer un peu)</h5>
-                      
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </p>
-        </div>
-    </section>
-
-    <section id="preparation">
-
-        <div class="container ">
-            <div class="p-3">
-                <h2 class=" text-center  bg-light  text-danger ">Préparation</h2>
-
-                <h3 class="text-center">Liste des tâches</h3>
-
-                <div class="bg-light">
-                    <h4>ETAPE 1</h4>
-                    <p>Eplucher les pommes de terre, les couper en dés, bien les rincer et les essuyer dans un torchon
-                        propre.</p>
-                </div>
-
-                <h4>ETAPE 2</h4>
-                <p>Faire chauffer l'huile dans une poêle, y faire fondre les oignons.</p>
-
-
-                <div class="bg-light">
-                    <h4>ETAPE 3</h4>
-                    <p>Lorsque les oignons sont fondus, ajouter les pommes de terre et les faire dorer de tous les
-                        côtés.</p>
-                </div>
-
-
-                <h4>ETAPE 4</h4>
-                <p>Lorsqu'elles sont dorées, ajouter les lardons et finir de cuire. Éponger le surplus de gras avec une
-                    feuille de papier essuie-tout.</p>
-
-                <div class="bg-light">
-                    <h4>ETAPE 5</h4>
-                    <p>D'autre part, gratter la croûte du reblochon et le couper en deux (ou en quatre).</p>
-                </div>
-
-
-                <h4>ETAPE 6</h4>
-                <p>Préchauffer le four à 200°C (thermostat 6-7) et préparer un plat à gratin en frottant le fond et les
-                    bords avec la gousse d'ail épluchée.</p>
-
-                <div class="bg-light">
-                    <h4>ETAPE 7</h4>
-                    <p>Dans le plat à gratin, étaler une couche de pommes de terre aux lardons, disposer dessus la
-                        moitié du reblochon, puis de nouveau des pommes de terre. Terminer avec le reste du reblochon
-                        (croûte vers les pommes de terre).</p>
-                </div>
-                <h4>ETAPE 8</h4>
-                <p>Enfourner pour environ 20 minutes de cuisson.</p>
             </div>
+          </div>
+          <div class="col">
+            <div class="card">
+              <img src="./assets/img/huile.jpg" alt="huile">
+              <div class="card-body">
+                <h5 class="card-title">2 c à s d'huile </h5>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card">
+              <img src="./assets/img/ail.jpg" alt="ail">
+              <div class="card-body">
+                <h5 class="card-title">1 gousse d'ail</h5>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card">
+              <img src="./assets/img/sel.jpg" alt="sel">
+              <div class="card-body">
+                <h5 class="card-title">sel</h5>
+
+              </div>
+            </div>
+          </div>
         </div>
-    </section>
 
-    <footer>
-        <div class="container">
-            <h2>Conclusion</h2>
-            <p>En conclusion la tartiflette c'est bon mais ça vaut pas une bonne raclette.</p>
+        <div class="row row-cols-1 row-cols-md-4 g-4 text-center">
+          <div class="col">
+            <div class="card">
+              <img src="./assets/img/poivre.jpg" alt="poivre">
+              <div class="card-body">
+                <h5 class="card-title">poivre</h5>
+
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card">
+              <img src="./assets/img/lardon.jpg" alt="lardon">
+              <div class="card-body">
+                <h5 class="card-title">200g de lardons fumées</h5>
+
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card">
+              <img src="./assets/img/oignon.jpg" alt="oignon">
+              <div class="card-body">
+                <h5 class="card-title">200 g d'oignons émincés</h5>
+
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card">
+              <img src="./assets/img/reblochon.jpg" alt="reblochon">
+              <div class="card-body">
+                <h5 class="card-title">1 reblochon bien fait (lorsqu'on appuie sur le côté du reblochon, le doigt doit
+                  s'enfoncer un peu)</h5>
+
+              </div>
+            </div>
+          </div>
         </div>
-    </footer>
+      </div>
+      </div>
+  </section>
+
+  <section id="preparation">
+
+    <div class="container ">
+      <div class="p-3">
+        <h2 class=" text-center  bg-light  text-danger ">Préparation</h2>
+
+        <h3 class="text-center">Liste des tâches</h3>
+
+        <div class="bg-light">
+          <h4>ETAPE 1</h4>
+          <p>Eplucher les pommes de terre, les couper en dés, bien les rincer et les essuyer dans un torchon
+            propre.</p>
+        </div>
+
+        <h4>ETAPE 2</h4>
+        <p>Faire chauffer l'huile dans une poêle, y faire fondre les oignons.</p>
 
 
-    <!-- Bootstrap Bundle with Popper -->
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
-        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
-        crossorigin="anonymous"></script>
+        <div class="bg-light">
+          <h4>ETAPE 3</h4>
+          <p>Lorsque les oignons sont fondus, ajouter les pommes de terre et les faire dorer de tous les
+            côtés.</p>
+        </div>
+
+
+        <h4>ETAPE 4</h4>
+        <p>Lorsqu'elles sont dorées, ajouter les lardons et finir de cuire. Éponger le surplus de gras avec une
+          feuille de papier essuie-tout.</p>
+
+        <div class="bg-light">
+          <h4>ETAPE 5</h4>
+          <p>D'autre part, gratter la croûte du reblochon et le couper en deux (ou en quatre).</p>
+        </div>
+
+
+        <h4>ETAPE 6</h4>
+        <p>Préchauffer le four à 200°C (thermostat 6-7) et préparer un plat à gratin en frottant le fond et les
+          bords avec la gousse d'ail épluchée.</p>
+
+        <div class="bg-light">
+          <h4>ETAPE 7</h4>
+          <p>Dans le plat à gratin, étaler une couche de pommes de terre aux lardons, disposer dessus la
+            moitié du reblochon, puis de nouveau des pommes de terre. Terminer avec le reste du reblochon
+            (croûte vers les pommes de terre).</p>
+        </div>
+        <h4>ETAPE 8</h4>
+        <p>Enfourner pour environ 20 minutes de cuisson.</p>
+      </div>
+    </div>
+  </section>
+
+  <footer>
+    <div class="container">
+      <h2>Conclusion</h2>
+      <p>En conclusion la tartiflette c'est bon mais ça vaut pas une bonne raclette.</p>
+    </div>
+  </footer>
+
+
+  <!-- Bootstrap Bundle with Popper -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+    crossorigin="anonymous"></script>
 </body>
 
 </html>
